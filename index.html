@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jin Video</title>
+  <link href="./dist/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="app">
+    <div class="Jin-Video">
+      <video src="./static/video/1080p.MP4"></video>
+      <div class="JV-item">
+        <ul>
+          <li class="JV-play">
+            <i class="iconfont icon-bofang"></i>
+          </li>
+          <li class="JV-time">
+            <p>
+              <span class="currentTime">00:00:00</span>
+              <span>/</span>
+              <span class="totalTime">00:00:00</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--导入 Webpack 输出的 JavaScript 文件-->
+  <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

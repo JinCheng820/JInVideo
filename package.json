@@ -1,0 +1,27 @@
+{
+  "name": "jinvideo",
+  "version": "1.0.0",
+  "description": "原生JS视频播放器",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --content-base ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video"
+  ],
+  "author": "JinCheng",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "file-loader": "^1.1.6",
+    "url-loader": "^0.6.2"
+  }
+}
